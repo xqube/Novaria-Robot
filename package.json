@@ -1,0 +1,28 @@
+{
+  "name": "novaria",
+  "version": "0.1.0-beta",
+  "description": "A Simple telegram basic group management bot with some extra features, runs on grammY bot Framework",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "aypnpillai",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.6.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@grammyjs/auto-retry": "^1.1.1",
+    "@grammyjs/chat-members": "^1.0.10",
+    "@grammyjs/files": "^1.0.4",
+    "@grammyjs/menu": "^1.2.1",
+    "@grammyjs/ratelimiter": "^1.2.0",
+    "cloudinary": "^1.41.0",
+    "diskusage": "^1.2.0",
+    "grammy": "^1.18.1",
+    "moment-timezone": "^0.5.43",
+    "mongoose": "^7.5.2",
+    "pm2": "^5.3.0"
+  }
+}
