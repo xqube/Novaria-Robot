@@ -5,7 +5,7 @@ export async function quizpoll(ctx) {
     const options = ctx.msg.poll.options.map((option) => option.text);
     const poll = ctx.msg.poll
     const user = ctx.chat
-    if (poll.is_anonymous === false && poll.type == "quiz") {
+    if (poll.is_anonymous === false && poll.type == "quiz" && poll.correct_option_id) {
       const object = await QuizModel.create({
         quizid: poll.id,
         userid: user.id,

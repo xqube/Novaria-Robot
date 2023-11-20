@@ -3,3 +3,6 @@
 *.log
 .env
 .vscode
+config.js
+config.js.map
+config.ts
