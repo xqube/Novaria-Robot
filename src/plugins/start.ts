@@ -10,7 +10,7 @@ export const menu = new Menu("root-menu", { onMenuOutdated: "Updated, try now." 
       console.log(error.message);
     }
   }).row()
-  .url("Support Group", "t.me/novaria_support");
+  .url("Support Group", "t.me/novaria_chat");
 
 const helpmenu = new Menu('help-menu')
   .submenu("Greetings", "to-welcome", async (ctx) => {
